@@ -1,0 +1,720 @@
+* {
+    padding: 0px;
+    margin: auto;
+}
+
+
+.container {
+    /* Home */
+
+    position: relative;
+    width: 1920px;
+    height: 1364px;
+
+    background: #FFFFFF;
+
+}
+
+.header {
+    display: flex;
+    /* background-color: green; */
+    height: 70px;
+    width: 1860px;
+    justify-content: center;
+
+}
+
+
+.go-to-top {
+    /* Link - Go to top */
+
+    position: absolute;
+    height: 36px;
+    left: 1859px;
+    right: 25px;
+    top: 1017px;
+    background: url(../image/Link\ -\ Go\ to\ top.png) no-repeat;
+    border-radius: 36px;
+
+}
+
+.menu {
+
+    /* background-color: rgb(248, 194, 194); */
+    width: 477.3px;
+    height: 70px;
+    display: flex;
+    list-style: none;
+
+    a {
+        font-family: 'Poppins';
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        /* identical to box height, or 130% */
+
+        align-items: center;
+        text-transform: capitalize;
+        color: #102136;
+
+
+    }
+}
+
+.menu-right {
+    /* background-color: aqua; */
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    /* background-color: #bac7d6; */
+    height: 70px;
+    width: 200px;
+    align-items: center;
+    display: flex;
+    margin-right: 0px;
+    gap: 0%;
+
+}
+
+.search {
+    background: url(../image/Search.png) no-repeat center;
+
+    /* background-color: #ffe200; */
+    width: 15px;
+    height: 15px;
+}
+
+.link {
+    background: url(../image/Link.png) no-repeat center;
+    width: 58.64px;
+    height: 17px;
+}
+
+.login {
+    width: 20px;
+    height: 20px;
+}
+
+.right-banner {
+    /* background-color: orangered; */
+    height: 70px;
+    width: 691.34px;
+}
+
+.right {
+    /* Link - Register */
+    margin: 0px;
+
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    background: #5E3FDE;
+    color: #FFFF;
+
+    border-radius: 3px;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5A20CB;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-left: 16px;
+}
+
+.right:hover {
+    background-color:  #1f0393;
+}
+
+
+.logo {
+    background: url(../image/logo.png) no-repeat left;
+    margin-left: auto;
+    width: 691.33px;
+    height: 70px;
+    ;
+    display: flex;
+}
+
+.main-container {
+
+position: absolute;
+width: 1920px;
+height: 878px;
+left: calc(50% - 1920px/2);
+top: 70px;
+
+
+}
+/* phần thân */
+
+
+.main-box {
+    position: absolute;
+    display: flex;
+    width: 550px;
+    height: 1050px;
+
+    left: 675px;
+    right: 695px;
+    top: 184px;
+    bottom: 60px;
+
+    background: #FFFFFF;
+    /* box-shadow: 5px 5px 0px rgba(192, 192, 192, 0.58); */
+    border-radius: 10px;
+}
+
+/* input[type=text], input[type=password],input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+
+    Input
+
+
+position: absolute;
+height: 40px;
+left: 0px;
+right: 0px;
+top: 21px;
+border: 1px solid #E0E0E0;
+border-radius: 3px;
+
+  } */
+
+.text-one {
+    position: absolute;
+    /* display: flex; */
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.main{
+    /* Article */
+
+position: absolute;
+width: 520px;
+height: 818px;
+left: calc(50% - 520px/2);
+top: 64px;
+
+background: rgba(255, 255, 255, 0.002);
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+
+}
+#main-form {
+    display: flex;
+    flex-direction: column;
+    top: 30px;
+}
+
+.form-group {
+   position: absolute;
+    height: 61px;
+    left: 30px;
+    right: 30px;
+    top: 62px;
+
+}
+
+.form-group2 {
+    position: absolute;
+    height: 61px;
+    left: 30px;
+    right: 30px;
+    top: 163px;
+
+}
+
+.form-group3 {
+    position: absolute;
+    height: 61px;
+    left: 30px;
+    right: 30px;
+    top: 264px;
+
+}
+
+.form-group4 {
+    position: absolute;
+    height: 61px;
+    left: 30px;
+    right: 30px;
+    top: 365px;
+   
+}
+
+.form-group5 {
+    position: absolute;
+    height: 61px;
+    left: 30px;
+    right: 30px;
+    top: 466px;
+
+}
+
+.form-group6 {
+    position: absolute;
+    height: 61px;
+    left: 30px;
+    right: 30px;
+    top: 574px;
+
+}
+
+
+.form-group10 {
+    position: absolute;
+    width:472px;
+    height: 40px;
+    left: 30px;
+    top:730px;
+    border-radius: 3px;
+}
+
+.btn-submit {
+    background-color: #7456F1;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    top: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* Form → Button */
+
+position: absolute;
+height: 40px;
+left: 24px;
+right: 24px;
+/* top: calc(50% - 40px/2 + 333px); */
+
+/* background: #7456F1; */
+border-radius: 3px;
+
+}
+
+.btn-submit:hover {
+    background-color:  #3c1ac4;
+}
+
+label {
+    /* color: #102136; */
+    margin-bottom: 5px;
+    display: block;
+    b {
+        position: absolute;
+        width: 100%;
+        height: 21px;
+        left: 0px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+    }
+}
+
+input {
+    box-sizing: border-box;
+    position: absolute;
+    height: 40px;
+    left: 0px;
+    right: 0px;
+    top: 21px;
+    display: block;
+    border: 1px solid #E0E0E0;
+    border-radius: 3px;
+}
+
+
+
+.form-group-check {
+    display: flex;
+    /* width: 490px; */
+    position: absolute;
+    /* height: 21px; */
+    /* left: 30px; */
+    /* right: 30px; */
+    /* top: 934px; */
+
+    /* Form → By signing up, I agree with the website's  */
+
+width: 474.92px;
+height: 35px;
+left: 24px;
+top: 680px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 21px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+}
+
+
+.form-group-check input {
+    margin-left: 0px;
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top:    4px;
+    /* left: 0px; */
+    background: #FFFFFF;
+    border: 1px solid #767676;
+    border-radius: 2.5px;
+
+}
+
+.form-group-check label {
+    
+position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+/* footer */
+
+.footer-home {
+
+    position: absolute;
+    width: 1920px;
+    height: 501.59px;
+    left: 0px;
+    right: 0px;
+    top: 1364.5px;
+
+    background: #F3F5F7;
+}
+
+.footer-content {
+    /* div */
+
+    position: absolute;
+    height: 432.09px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: linear-gradient(102.68deg, #220359 0%, #7918F2 100%, #4801FF 100%);
+
+
+}
+
+.footer-main {
+    /* div.ct-container */
+
+    position: absolute;
+    width: 1290px;
+    height: 432.09px;
+    left: calc(50% - 1290px/2);
+    top: 0px;
+
+}
+
+.collum {
+    /* div */
+    /* background-color: #d8e2e4; */
+    position: absolute;
+    left: 0px;
+    right: 893.34px;
+    top: 120px;
+    bottom: 120px;
+}
+
+.logo-end {
+    background: url(../image/mexemy-logo.png) no-repeat;
+    /* Figure */
+
+    position: absolute;
+    height: 45.59px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+
+}
+
+.text-collum {
+
+    /* Blockquote */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 106.5px;
+    left: 0px;
+    right: 0px;
+    top: 85.59px;
+
+    border-left: 4px solid #7456F1;
+
+}
+
+.line1 {
+    /* Strong → Give a man a fish and you feed him for a day; */
+
+    position: absolute;
+    width: 345.26px;
+    height: 63px;
+    left: 26.5px;
+    top: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    /* or 140% */
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+
+}
+
+.author {
+    /* —Maimonides */
+
+    position: absolute;
+    width: 107.89px;
+    height: 21px;
+    left: 26.5px;
+    top: 85.5px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    /* identical to box height, or 140% */
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+
+}
+
+.links {
+    /* div */
+    /* background-color: #d8e2e4; */
+    position: absolute;
+    left: 446.66px;
+    right: 446.67px;
+    top: 120px;
+    bottom: 120px;
+}
+
+.collum2 {
+
+    /* Heading 3 */
+
+    position: absolute;
+    height: 16px;
+    left: 99.9px;
+    right: 99.93px;
+    top: 7.14px;
+
+}
+
+
+.text-collum2 {
+    /* All pages */
+
+    position: absolute;
+    width: 73.97px;
+    height: 16px;
+    left: calc(50% - 73.97px/2 + 0.17px);
+    top: -0.5px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.list-end {
+    /* List */
+    justify-content: space-between;
+    position: absolute;
+    height: 147px;
+    left: 99.9px;
+    right: 99.93px;
+    top: 37.94px;
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        /* Item → Link → All Courses */
+        width: 198.73px;
+        left: calc(50% - 198.73px/2 + 0.95px);
+        /* top: 0px; */
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 21px;
+        /* or 140% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        text-decoration: none;
+
+        color: #FFFFFF;
+    }
+}
+
+.social-media {
+    /* background-color: #d8e2e4; */
+    position: absolute;
+    left: 893.33px;
+    right: 0px;
+    top: 120px;
+    bottom: 120px;
+
+}
+
+.social-icons {
+    background: url(../image/Pay-With-logo-All.png) no-repeat;
+
+    position: absolute;
+    width: 396.67px;
+    height: 89.25px;
+    left: 0px;
+    bottom: 51.42px;
+
+
+
+}
+
+.under-end {
+    /* div.ct-container */
+
+    position: absolute;
+    width: 1290px;
+    height: 69.5px;
+    left: calc(50% - 1290px/2);
+    top: 432.09px;
+}
+
+.copyright {
+    /* div */
+
+    position: absolute;
+    left: 0px;
+    right: 670px;
+    top: 25px;
+    bottom: 25px;
+
+    p {
+        /* Copyright © 2024 @mexemy.com */
+
+        position: absolute;
+        width: 254.25px;
+        height: 19.5px;
+        left: 0px;
+        top: 0px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        /* identical to box height, or 130% */
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+    }
+
+}
+
+.link-connect {
+    position: absolute;
+    left: 670px;
+    right: 0px;
+    top: 25px;
+    bottom: 25px;
+
+}
+
+.Facebook {
+    background: url(../image/facebook.png)no-repeat;
+    /* Link - Facebook → SVG */
+
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: calc(50% - 18px/2 + 235px);
+    top: calc(50% - 18px/2 - 0.75px);
+
+
+}
+
+.insta {
+    background: url(../image/insta.png)no-repeat;
+    /* Link - Instagram → SVG */
+
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: calc(50% - 18px/2 + 268px);
+    top: calc(50% - 18px/2 - 0.75px);
+
+
+}
+
+.yt {
+    background: url(../image/yt.png)no-repeat;
+    /* Link - YouTube → SVG */
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: calc(50% - 18px/2 + 301px);
+    top: calc(50% - 18px/2 - 0.75px);
+}

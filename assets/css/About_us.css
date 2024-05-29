@@ -1,0 +1,1063 @@
+* {
+    padding: 0px;
+    margin: auto;
+}
+
+
+.container {
+    /* Home */
+
+    position: relative;
+    width: 1920px;
+    height: 2801.09px;
+
+    background: #FFFFFF;
+
+}
+
+.header {
+    display: flex;
+    /* background-color: green; */
+    height: 70px;
+    width: 1860px;
+    justify-content: center;
+
+}
+
+/* .main-main {
+    display: flex;
+} */
+
+.go-to-top {
+    /* Link - Go to top */
+
+    position: absolute;
+    height: 36px;
+    left: 1859px;
+    right: 25px;
+    top: 1017px;
+    background: url(../image/Link\ -\ Go\ to\ top.png) no-repeat;
+    border-radius: 36px;
+
+}
+
+.menu {
+
+    /* background-color: rgb(248, 194, 194); */
+    width: 477.3px;
+    height: 70px;
+    display: flex;
+    list-style: none;
+
+    a {
+        font-family: 'Poppins';
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        /* identical to box height, or 130% */
+
+        align-items: center;
+        text-transform: capitalize;
+        color: #102136;
+
+
+    }
+}
+
+.menu-right {
+    /* background-color: aqua; */
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    /* background-color: #bac7d6; */
+    height: 70px;
+    width: 200px;
+    align-items: center;
+    display: flex;
+    margin-right: 0px;
+    gap: 0%;
+
+}
+
+.search {
+    background: url(../image/Search.png) no-repeat center;
+
+    /* background-color: #ffe200; */
+    width: 15px;
+    height: 15px;
+}
+
+.link {
+    background: url(../image/Link.png) no-repeat center;
+    width: 58.64px;
+    height: 17px;
+}
+
+.login {  
+    width: 20px;
+    height: 20px;
+}
+
+.right-banner {
+    /* background-color: orangered; */
+    height: 70px;
+    width: 691.34px;
+}
+
+.right {
+
+    margin: 0px;
+
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    background: #5E3FDE;
+    color: #FFFF;
+
+    border-radius: 3px;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5A20CB;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-left: 1rem;
+    transition: background-color 0.3s;
+}
+
+.right:hover {
+    background-color:  #1f0393;
+}
+
+.logo {
+    background: url(../image/logo.png) no-repeat left;
+    margin-left: auto;
+    width: 691.33px;
+    height: 70px;
+    ;
+    display: flex;
+}
+
+.under_header {
+    position: relative;
+    height: 450px;
+    width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; Đảm bảo nền không tràn ra ngoài */
+    z-index: 2;
+
+    height: 450px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+    background: linear-gradient(143.04deg, #5507BA 0%, #25029E 100%);
+
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../image/heading.png) no-repeat center/ cover;
+    z-index: 1;
+    /* Đặt hình ảnh phía trên lớp nền */
+}
+
+
+.content {
+
+    /* background-color: rgb(243, 106, 1); */
+    position: absolute;
+    width: 343.61px;
+    height: 75px;
+
+    top: 186.5px;
+
+
+
+    h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 73px;
+        line-height: 75px;
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+}
+
+.fb-white {
+    background: url(../image/img-about-us/fb-white.png) no-repeat;
+
+    position: absolute;
+    width: 16.39px;
+    height: 16px;
+    left: calc(50% - 16.39px/2 - 36.81px);
+    top: 289.5px;
+
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+
+
+
+}
+
+.youtube-white {
+    background: url(../image/img-about-us/youtube-white.png) no-repeat;
+
+
+    position: absolute;
+    width: 18.31px;
+    height: 16px;
+    left: calc(50% - 18.31px/2 + 0.15px);
+    top: 289.5px;
+
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+
+}
+
+.insta-white {
+    background: url(../image/img-about-us/insta-white.png) no-repeat;
+
+    position: absolute;
+    width: 14.36px;
+    height: 16px;
+    left: calc(50% - 14.36px/2 + 37.18px);
+    top: 289.5px;
+
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.text {
+    top: 70px;
+    height: 2281.09px;
+    width: 1920px;
+    display: flex;
+    position: absolute;
+}
+
+.text-1 {
+    /* background-color: green; */
+
+    position: absolute;
+    width: 1075.9px;
+    height: 75.6px;
+    left: 400px;
+    top: 509.89px;
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+}
+
+.text-2 {
+    /* background-color: yellow; */
+
+    position: absolute;
+    width: 1114.78px;
+    height: 75.6px;
+    left: 400px;
+    top: 612.45px;
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+}
+
+.text-3 {
+    /* background-color: orange; */
+
+    position: absolute;
+    width: 1041.49px;
+    height: 25.2px;
+    left: 400px;
+    top: 715.03px;
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+}
+
+.text-4 {
+    /* background-color: rebeccapurple; */
+
+    position: absolute;
+    width: 721.17px;
+    height: 41px;
+    left: calc(50% - 721.17px/2 + 0.16px);
+    top: 810.31px;
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 41px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.9px;
+
+    color: #102136;
+
+
+}
+
+.text-5 {
+    /* background-color: rgb(172, 16, 189); */
+
+    font-family: 'Hind Siliguri';
+    position: absolute;
+    width: 1120px;
+    height: 171.59px;
+    left: calc(50% - 1120px/2);
+    top: 921.31px;
+
+}
+
+.text-5-1 {
+
+    position: absolute;
+    left: 0px;
+    right: 560px;
+    top: 0px;
+    bottom: 0px;
+
+
+}
+
+.season1 {
+
+    position: absolute;
+    height: 22px;
+    left: 20px;
+    right: 20px;
+    top: 10px;
+    font-weight: 700;
+
+    font-style: normal;
+    font-size: 22px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+
+}
+
+.text-left {
+
+    position: absolute;
+    height: 63px;
+    left: 20px;
+    right: 20px;
+    top: 48.6px;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+
+    font-family: 'Hind Siliguri';
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+
+
+}
+
+.text-5-2 {
+
+    position: absolute;
+    left: 560px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
+
+
+}
+
+.season2 {
+
+    position: absolute;
+    height: 22px;
+    left: 30px;
+    right: 30px;
+    top: 10px;
+    font-weight: 700;
+
+    font-style: normal;
+    font-size: 22px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+}
+
+.text-right {
+
+    position: absolute;
+    height: 63px;
+    left: 30px;
+    right: 30px;
+    top: 48.6px;
+    font-weight: 600;
+
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+
+    font-family: 'Hind Siliguri';
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+/* ma[ */
+.map {
+
+
+    position: absolute;
+    width: 1140px;
+    height: 400px;
+    left: calc(50% - 1140px/2);
+    top: 1729.5px;
+
+
+}
+
+.box-one {
+    /* div.elementor-widget-wrap */
+
+    position: absolute;
+    left: 0px;
+    right: 570px;
+    top: 0px;
+    bottom: 0px;
+
+
+}
+
+.box-two {
+    /* Iframe - Cumilla, 2nd durgapur union → Body */
+
+    position: absolute;
+    left: 570px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    background: url(../image/img-about-us/map.png)no-repeat;
+
+}
+
+.logo-map {
+    background: url(../image/img-about-us/logo-map.png)no-repeat;
+    width: 131.09px;
+    height: 53.44px;
+    left: 0px;
+    top: 78.89px;
+    position: absolute;
+}
+
+.list {
+    /* background-color: greenyellow; */
+
+    position: absolute;
+    height: 118.98px;
+    left: 0px;
+    right: 0px;
+    top: 150.72px;
+    display: flex;
+
+
+}
+
+.icons-1 {
+    background: url(../image/img-about-us/icons-1.png)no-repeat;
+    width: 17px;
+    height: 15px;
+    position: absolute;
+    display: flex;
+    left: 0px;
+    top: 4.89px;
+    ;
+
+}
+
+.icons-2 {
+    background: url(../image/img-about-us/icons-2.png)no-repeat;
+    width: 13px;
+    height: 15px;
+    position: absolute;
+    display: flex;
+    left: 0px;
+    top: 28.69px;
+}
+
+.icons-3 {
+    background: url(../image/img-about-us/icons-3.png)no-repeat;
+    width: 17px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    left: 0px;
+    top: 53.69px;
+}
+
+.icons-4 {
+    background: url(../image/img-about-us/icons-4.png)no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    display: flex;
+    left: 0px;
+    top: 78.69px;
+}
+
+.icons-5 {
+    background: url(../image/img-about-us/icons-5.png)no-repeat;
+    width: 17.8px;
+    height: 15px;
+    position: absolute;
+    display: flex;
+    left: 0px;
+    top: 101.69px;
+}
+
+.list-1 {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    /* width: 434.42px; */
+    height: 23.8px;
+    left: 22.5px;
+    top: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.list-2 {
+
+    position: absolute;
+    /* width: 109.73px; */
+    height: 23.8px;
+    left: 22.5px;
+    top: 23.8px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+.list-3{
+
+position: absolute;
+width: 206.58px;
+height: 23.8px;
+left: 22.5px;
+top: 47.59px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 24px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+}
+.list-4{
+
+position: absolute;
+/* width: 259.03px; */
+height: 23.8px;
+left: 22.5px;
+top: 71.39px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 24px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+}
+.list-5{
+  
+position: absolute;
+/* width: 219.54px; */
+height: 23.8px;
+left: 22.5px;
+top: 95.19px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+}
+
+
+.connect {
+    /* background-color: rgb(9, 228, 177); */
+
+    position: absolute;
+    height: 32px;
+    left: 0px;
+    right: 0px;
+    top: 289.7px;
+    display: flex;
+    
+
+
+}
+.link-1{
+    background: url(../image/img-about-us/Link\ \(1\).png) no-repeat;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 0px;
+    display: flex;
+
+}
+.link-2{
+    background: url(../image/img-about-us/Link\ \(2\).png)no-repeat;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 40px;
+}
+.link-3{
+    background: url(../image/img-about-us/Link\ \(3\).png)no-repeat;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 84px;
+}
+
+/* foooter */
+
+
+.footer-home {
+    /* Footer */
+
+    position: absolute;
+    width: 1920px;
+    height: 501.59px;
+    left: 0px;
+    right: 0px;
+    top: 2351px;
+    background: #F3F5F7;
+}
+
+.footer-content {
+    /* div */
+
+    position: absolute;
+    height: 432.09px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: linear-gradient(102.68deg, #220359 0%, #7918F2 100%, #4801FF 100%);
+
+
+}
+
+.footer-main {
+    /* div.ct-container */
+
+    position: absolute;
+    width: 1290px;
+    height: 432.09px;
+    left: calc(50% - 1290px/2);
+    top: 0px;
+
+}
+
+.collum {
+    /* div */
+    /* background-color: #d8e2e4; */
+    position: absolute;
+    left: 0px;
+    right: 893.34px;
+    top: 120px;
+    bottom: 120px;
+}
+
+.logo-end {
+    background: url(../image/mexemy-logo.png) no-repeat;
+    /* Figure */
+
+    position: absolute;
+    height: 45.59px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+
+}
+
+.text-collum {
+
+    /* Blockquote */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 106.5px;
+    left: 0px;
+    right: 0px;
+    top: 85.59px;
+
+    border-left: 4px solid #7456F1;
+
+}
+
+.line1 {
+    /* Strong → Give a man a fish and you feed him for a day; */
+
+    position: absolute;
+    width: 345.26px;
+    height: 63px;
+    left: 26.5px;
+    top: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    /* or 140% */
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+
+}
+
+.author {
+    /* —Maimonides */
+
+    position: absolute;
+    width: 107.89px;
+    height: 21px;
+    left: 26.5px;
+    top: 85.5px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    /* identical to box height, or 140% */
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+
+}
+
+.links {
+    /* div */
+    /* background-color: #d8e2e4; */
+    position: absolute;
+    left: 446.66px;
+    right: 446.67px;
+    top: 120px;
+    bottom: 120px;
+}
+
+.collum2 {
+
+    /* Heading 3 */
+
+    position: absolute;
+    height: 16px;
+    left: 99.9px;
+    right: 99.93px;
+    top: 7.14px;
+
+}
+
+
+.text-collum2 {
+    /* All pages */
+
+    position: absolute;
+    width: 73.97px;
+    height: 16px;
+    left: calc(50% - 73.97px/2 + 0.17px);
+    top: -0.5px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.list-end {
+    /* List */
+    justify-content: space-between;
+    position: absolute;
+    height: 147px;
+    left: 99.9px;
+    right: 99.93px;
+    top: 37.94px;
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        /* Item → Link → All Courses */
+        width: 198.73px;
+        left: calc(50% - 198.73px/2 + 0.95px);
+        /* top: 0px; */
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 21px;
+        /* or 140% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        text-decoration: none;
+
+        color: #FFFFFF;
+    }
+}
+
+.social-media {
+    /* background-color: #d8e2e4; */
+    position: absolute;
+    left: 893.33px;
+    right: 0px;
+    top: 120px;
+    bottom: 120px;
+
+}
+
+.social-icons {
+    background: url(../image/Pay-With-logo-All.png) no-repeat;
+
+    position: absolute;
+    width: 396.67px;
+    height: 89.25px;
+    left: 0px;
+    bottom: 51.42px;
+
+
+
+}
+
+.under-end {
+    /* div.ct-container */
+
+    position: absolute;
+    width: 1290px;
+    height: 69.5px;
+    left: calc(50% - 1290px/2);
+    top: 432.09px;
+}
+
+.copyright {
+    /* div */
+
+    position: absolute;
+    left: 0px;
+    right: 670px;
+    top: 25px;
+    bottom: 25px;
+
+    p {
+        /* Copyright © 2024 @mexemy.com */
+
+        position: absolute;
+        width: 254.25px;
+        height: 19.5px;
+        left: 0px;
+        top: 0px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        /* identical to box height, or 130% */
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+    }
+
+}
+
+.link-connect {
+    position: absolute;
+    left: 670px;
+    right: 0px;
+    top: 25px;
+    bottom: 25px;
+
+}
+
+.Facebook {
+    background: url(../image/facebook.png)no-repeat;
+    /* Link - Facebook → SVG */
+
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: calc(50% - 18px/2 + 235px);
+    top: calc(50% - 18px/2 - 0.75px);
+
+
+}
+
+.insta {
+    background: url(../image/insta.png)no-repeat;
+    /* Link - Instagram → SVG */
+
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: calc(50% - 18px/2 + 268px);
+    top: calc(50% - 18px/2 - 0.75px);
+
+
+}
+
+.yt {
+    background: url(../image/yt.png)no-repeat;
+    /* Link - YouTube → SVG */
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: calc(50% - 18px/2 + 301px);
+    top: calc(50% - 18px/2 - 0.75px);
+}
